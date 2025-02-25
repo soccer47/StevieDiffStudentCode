@@ -1,9 +1,11 @@
+import java.util.HashMap;
+
 /**
  * Plagiarism Checker
  * A tool for finding the longest shared substring between two documents.
  *
  * @author Zach Blick
- * @author YOUR NAME HERE
+ * @author Stevie K. Halprin
  */
 public class PlagiarismChecker {
 
@@ -15,8 +17,12 @@ public class PlagiarismChecker {
      * @return The length of the longest shared substring.
      */
     public static int longestSharedSubstring(String doc1, String doc2) {
+        // If the same letter reappears later in the String it shouldn't start the shared substring
+        // HashMap? Graph of letters? Indexes of each letter?
+        // >> find the letter that comes soonest after in both docs
+        // >>> first letter that appears in both docs after the current index
 
-        // TODO Complete this function to return the length of the longest shared substring.
+
 
         return 0;
     }
